@@ -1,6 +1,6 @@
 # 基本用法
 
-![basic-usage](/elf-mouse/git-please/raw/master/doc/basic-usage.svg)
+![basic-usage](basic-usage.svg)
 
 - `git add files` 把当前文件放入暂存区域。
 - `git commit` 给暂存区域生成快照并提交。
@@ -10,7 +10,7 @@
 
 也可以跳过暂存区域直接从仓库取出文件或者直接提交代码。
 
-![basic-usage-2](/elf-mouse/git-please/raw/master/doc/basic-usage-2.svg)
+![basic-usage-2](basic-usage-2.svg)
 
 - `git commit -a` 相当于运行 `git add` 把所有当前目录下的文件加入暂存区域再运行。`git commit`.
 - `git commit files` 进行一次包含最后一次提交加上工作目录中文件快照的提交。并且文件被添加到暂存区域。
