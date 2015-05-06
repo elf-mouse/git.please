@@ -38,7 +38,9 @@ git checkout HEAD file/to/restore
 git checkout --ours xxx // 使用本地的文件
 git checkout --theirs xxx // 使用版本库中的文件
 
-
+git add <file>...
+git commit
+:wq
 ```
 
 * rebase的冲突解决
