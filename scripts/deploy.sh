@@ -49,5 +49,5 @@ fi
 
 LOG_MESSAGE="build $PROJECT_NAME as of $(git log '--format=format:%H' $CURRENT_SOURCE_BRANCH -1)"
 git add -A
-git commit -m $LOG_MESSAGE
+git commit -m "$LOG_MESSAGE"
 git push -f --set-upstream origin $buildBranch
