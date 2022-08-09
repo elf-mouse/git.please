@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 1. 创建新分支
-git checkout --orphan master
+git checkout --orphan main
 
 # 2. 添加所有文件
 git add -A
